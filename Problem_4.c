@@ -1,16 +1,18 @@
 //Your task here is to print half pyramid of stars.
 
 #include<stdio.h>
-
-
 int main()
 {
-  	int n;
+    int n ;
+    printf("Enter the number of layers\n");
+    scanf("%d",&n);
+    for (int i = 0; i < n; ++i) {
+        for (int j = 0; j <= i; ++j) {
+            printf("*");
 
-  	scanf("%d", &n);
+        }
+        printf("\n");
 
-  	//Write your code here
-  	
-
-  	return 0;
+    }
+    return 0;
 }

@@ -7,7 +7,15 @@ int main() {
     scanf("%d", &number);
 
     // Write your code here
-    
+    if(number%2 == 0)
+    {
+      printf("The number entered is an even number");
+  
+    }
+    if(number%2 != 0 )
+    {
+      printf("The number entered is an odd number");
+    }
     
    
     return 0;
